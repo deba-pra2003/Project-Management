@@ -2,10 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "postinstall": " prisma generate",
     "start": "node server.js",
     "server": "nodemon server.js"
   },
@@ -17,14 +16,14 @@
     "@neondatabase/serverless": "^1.0.2",
     "@prisma/adapter-neon": "^7.6.0",
     "@prisma/client": "^5.22.0",
-    "cors": "^2.8.6",
+    "cors": "^2.8.5",
     "dotenv": "^17.4.0",
-    "express": "^5.2.1",
+    "express": "^5.1.0",
     "inngest": "^4.3.0",
-    "ws": "^8.20.0"
+    "ws": "^8.18.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14",
+    "nodemon": "^3.1.10",
     "prisma": "^5.22.0"
   }
 }
